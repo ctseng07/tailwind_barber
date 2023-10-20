@@ -2,7 +2,7 @@
   "name": "barber_page",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ctseng07.github.io/barber_page/",
+  "homepage": "https://ctseng07.github.io/tailwind_barber/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
