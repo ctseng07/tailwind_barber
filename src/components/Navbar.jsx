@@ -26,7 +26,9 @@ const Navbar = () => {
                     ))}
                 </ul>
 
-                <Button label="Appointment" iconURL={rightArrow} />
+                <div className="btn-primary">
+                    <Button label="Appointment" iconURL={rightArrow} />
+                </div>
 
                 <div className='hidden max-lg:block'>
                     <img src={hamburger} alt="Hamburger"

@@ -13,10 +13,10 @@ function App() {
   return (
 <main className="relative">
   <Navbar />
-  <section className="padding-b">
+  <section className="Hero">
     <Hero />
   </section>
-  <section className="padding">
+  <section className="padding-x py-10">
     <Services />
   </section>
   <section className="padding">
