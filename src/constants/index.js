@@ -15,6 +15,33 @@ export const navLinks = [
     { href: "#contact", label: "Contact" },
 ];
 
+export const serviceTabs = [
+    {
+        imgURL: scissors,
+        label: "All Pricing"
+    },
+    {
+        imgURL: relax,
+        label: "Beauty & Spa"
+    },
+    {
+        imgURL: massage,
+        label: "Body Treatments"
+    },
+    {
+        imgURL: facialMask,
+        label: "Face Washing"
+    },
+    {
+        imgURL: yoga,
+        label: "Meditations"
+    },
+    {
+        imgURL: razor,
+        label: "Shaving"
+    },
+];
+
 export const services = [
     {
         imgURL: pricing1,
@@ -24,7 +51,7 @@ export const services = [
     },
     {
         imgURL: pricing2,
-        label: "Shaving % Facial",
+        label: "Shaving & Facial",
         subtext: "Clean & simple 30-40 minutes",
         price: "$45"
     },

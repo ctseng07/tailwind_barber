@@ -21,6 +21,10 @@ export default {
         oswald: ['Oswald', 'sans-serif'],
         rubik: ['Rubik', 'sans-serif'],
       },
+        transitionTimingFunction: {
+          'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+          'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+      },
       colors: {
         'gold': "#D5A153",
         'white': "#FFFFFF",
@@ -31,6 +35,7 @@ export default {
       },
       backgroundImage: {
         'hero': "url('assets/images/hero-banner.jpg')",
+        'black': "url('assets/images/bg.png')",
         'pricing': "url('assets/images/pricing-bg.jpg')",
         'footer': "url('assets/images/footer-bg.png')",
       },

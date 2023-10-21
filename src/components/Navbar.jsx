@@ -26,7 +26,7 @@ const Navbar = () => {
                     ))}
                 </ul>
 
-                <div className="btn-primary">
+                <div className="max-lg:hidden">
                     <Button label="Appointment" iconURL={rightArrow} />
                 </div>
 
